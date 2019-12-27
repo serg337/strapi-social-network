@@ -1,0 +1,63 @@
+{
+  "connection": "default",
+  "collectionName": "profiles",
+  "info": {
+    "name": "Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "developer",
+        "marketing",
+        "other"
+      ],
+      "required": true,
+      "default": "other"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "githubusername": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.skills"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "profile"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.experience"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.education"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.social"
+    }
+  }
+}

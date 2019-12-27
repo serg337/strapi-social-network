@@ -1,0 +1,35 @@
+{
+  "info": {
+    "name": "education",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "school": {
+      "type": "string",
+      "required": true
+    },
+    "degree": {
+      "type": "string",
+      "required": true
+    },
+    "fieldofstudy": {
+      "type": "string",
+      "required": true
+    },
+    "from": {
+      "type": "date"
+    },
+    "to": {
+      "type": "date"
+    },
+    "current": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_profile_educations"
+}

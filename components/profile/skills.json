@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "skills",
+  "info": {
+    "name": "skills",
+    "icon": "biking"
+  },
+  "options": {},
+  "attributes": {
+    "skill_1": {
+      "type": "string"
+    },
+    "skill_2": {
+      "type": "string"
+    },
+    "skill_3": {
+      "type": "string"
+    },
+    "skill_4": {
+      "type": "string"
+    },
+    "skill_5": {
+      "type": "string"
+    }
+  }
+}

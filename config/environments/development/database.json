@@ -1,0 +1,14 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "uri": "mongodb://admin:admin@social-network-shard-00-00-qr9mf.mongodb.net:27017,social-network-shard-00-01-qr9mf.mongodb.net:27017,social-network-shard-00-02-qr9mf.mongodb.net:27017/test?ssl=true&replicaSet=social-network-shard-0&authSource=admin&retryWrites=true&w=majority"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
