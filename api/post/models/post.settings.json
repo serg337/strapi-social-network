@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "posts",
+  "info": {
+    "name": "Post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "posts"
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "post.likes"
+    },
+    "comments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post.comments"
+    }
+  }
+}

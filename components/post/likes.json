@@ -1,0 +1,15 @@
+{
+  "info": {
+    "name": "likes",
+    "icon": "thumbs-up"
+  },
+  "options": {},
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_post_likes"
+}

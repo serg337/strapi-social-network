@@ -6,12 +6,10 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "company": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "location": {
       "type": "string"
@@ -26,9 +24,9 @@
       "type": "boolean"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   },
   "connection": "default",
-  "collectionName": "components_profile_experiences"
+  "collectionName": "components_experience_experiences"
 }

@@ -31,9 +31,6 @@
     "bio": {
       "type": "string"
     },
-    "githubusername": {
-      "type": "string"
-    },
     "skills": {
       "type": "component",
       "repeatable": false,
@@ -44,20 +41,20 @@
       "model": "user",
       "via": "profile"
     },
-    "experience": {
+    "social": {
       "type": "component",
       "repeatable": false,
-      "component": "profile.experience"
+      "component": "profile.social"
     },
     "education": {
       "type": "component",
-      "repeatable": false,
-      "component": "profile.education"
+      "repeatable": true,
+      "component": "education.education"
     },
-    "social": {
+    "experience": {
       "type": "component",
       "repeatable": true,
-      "component": "profile.social"
+      "component": "experience.experience"
     }
   }
 }

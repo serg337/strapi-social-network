@@ -45,12 +45,20 @@
       "path": "/profiles/:id",
       "handler": "profile.update",
       "config": {
+        "policies": ["isOwner"]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/profiles/education/:id",
+      "handler": "profile.create",
+      "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/profiles/:id",
+      "path": "/profiles/",
       "handler": "profile.delete",
       "config": {
         "policies": []

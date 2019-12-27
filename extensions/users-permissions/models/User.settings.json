@@ -59,6 +59,10 @@
     "profile": {
       "via": "user",
       "model": "profile"
+    },
+    "posts": {
+      "via": "user",
+      "collection": "post"
     }
   }
 }

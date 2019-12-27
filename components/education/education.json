@@ -1,7 +1,9 @@
 {
+  "connection": "default",
+  "collectionName": "components_education_educations",
   "info": {
     "name": "education",
-    "icon": "book-open"
+    "icon": "atlas"
   },
   "options": {},
   "attributes": {
@@ -10,12 +12,10 @@
       "required": true
     },
     "degree": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "fieldofstudy": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "from": {
       "type": "date"
@@ -27,9 +27,7 @@
       "type": "boolean"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_profile_educations"
+  }
 }

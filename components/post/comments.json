@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "comments",
+    "icon": "user-edit"
+  },
+  "options": {},
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_post_comments"
+}
