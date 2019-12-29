@@ -37,21 +37,13 @@
       "path": "/profiles",
       "handler": "profile.create",
       "config": {
-        "policies": ["isUser"]
+        "policies": []
       }
     },
     {
       "method": "PUT",
       "path": "/profiles/:id",
       "handler": "profile.update",
-      "config": {
-        "policies": ["isOwner"]
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/profiles/education/:id",
-      "handler": "profile.create",
       "config": {
         "policies": []
       }

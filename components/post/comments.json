@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_post_comments",
   "info": {
     "name": "comments",
     "icon": "user-edit"
@@ -22,7 +24,5 @@
     "date": {
       "type": "date"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_post_comments"
+  }
 }
