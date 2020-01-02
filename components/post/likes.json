@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_post_likes",
   "info": {
     "name": "likes",
     "icon": "thumbs-up"
@@ -8,8 +10,12 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "amount": {
+      "type": "integer",
+      "default": 1,
+      "max": 1,
+      "min": 1
     }
-  },
-  "connection": "default",
-  "collectionName": "components_post_likes"
+  }
 }

@@ -1,15 +1,12 @@
 {
-  "connection": "default",
-  "collectionName": "components_education_educations",
   "info": {
     "name": "education",
-    "icon": "atlas"
+    "icon": "book-reader"
   },
   "options": {},
   "attributes": {
     "school": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "degree": {
       "type": "string"
@@ -29,5 +26,7 @@
     "description": {
       "type": "text"
     }
-  }
+  },
+  "connection": "default",
+  "collectionName": "components_profile_educations"
 }

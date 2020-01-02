@@ -1272,11 +1272,11 @@
               "bio": {
                 "type": "string"
               },
-              "skills": {
-                "type": "component"
-              },
               "user": {
                 "type": "string"
+              },
+              "skills": {
+                "type": "component"
               },
               "social": {
                 "type": "component"

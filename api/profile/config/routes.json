@@ -41,17 +41,25 @@
       }
     },
     {
-      "method": "PUT",
-      "path": "/profiles/:id",
-      "handler": "profile.update",
+      "method": "DELETE",
+      "path": "/profiles/",
+      "handler": "profile.delete",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "DELETE",
-      "path": "/profiles/",
-      "handler": "profile.delete",
+      "method": "POST",
+      "path": "/profiles/:id/education",
+      "handler": "profile.addEducation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/profiles/:id/experience",
+      "handler": "profile.addExperience",
       "config": {
         "policies": []
       }

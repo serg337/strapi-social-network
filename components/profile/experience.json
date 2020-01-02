@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_experience_experiences",
   "info": {
     "name": "experience",
     "icon": "address-card"
@@ -26,7 +28,5 @@
     "description": {
       "type": "text"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_experience_experiences"
+  }
 }

@@ -26,7 +26,7 @@
     },
     "likes": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "post.likes"
     },
     "comments": {

@@ -31,15 +31,15 @@
     "bio": {
       "type": "string"
     },
-    "skills": {
-      "type": "component",
-      "repeatable": false,
-      "component": "profile.skills"
-    },
     "user": {
       "plugin": "users-permissions",
       "model": "user",
       "via": "profile"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.skills"
     },
     "social": {
       "type": "component",
@@ -49,12 +49,12 @@
     "education": {
       "type": "component",
       "repeatable": true,
-      "component": "education.education"
+      "component": "profile.education"
     },
     "experience": {
       "type": "component",
       "repeatable": true,
-      "component": "experience.experience"
+      "component": "profile.experience"
     }
   }
 }

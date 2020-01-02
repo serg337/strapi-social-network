@@ -47,6 +47,22 @@
       "config": {
         "policies": ["isOwner"]
       }
+    },
+    {
+      "method": "POST",
+      "path": "/posts/:id/comments",
+      "handler": "post.addComment",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/posts/:id/likes",
+      "handler": "post.addLike",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
